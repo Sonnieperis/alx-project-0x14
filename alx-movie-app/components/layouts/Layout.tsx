@@ -9,7 +9,7 @@ const Layout: React.FC<ComponentProps> = ({ children }) => {
       <main className="min-h-screen">{children}</main>
       <Footer />
     </>
-  )
-}
+  );
+};
 
 export default Layout;
